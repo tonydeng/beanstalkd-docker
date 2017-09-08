@@ -20,3 +20,12 @@ $ sudo docker run -d -p 11300:11300 wolfdeng/beanstalkd
 The above example exposes the Beanstalk on port 11300, so that you can use it in your application.
 
 You can also use docker's links to link beanstalkd service to your container.
+
+## Beanstalk Documents
+### Protocol
+
+[English version](https://github.com/kr/beanstalkd/blob/master/doc/protocol.txt) and [Chinese version](https://github.com/kr/beanstalkd/blob/master/doc/protocol.zh-CN.md) or [My reformat Chinese version](https://github.com/tonydeng/beanstalkd/blob/master/doc/protocol.zh-CN.md)
+
+### Beanstalkd FAQ
+
+[Beanstalkd FAQ 中文版](http://www.fzb.me/2015-7-31-beanstalkd-faq.html)

@@ -1,5 +1,10 @@
 # Beanstalkd Docker
 
+[![Docker Stars](https://img.shields.io/docker/stars/wolfdeng/beanstalkd.svg)](https://hub.docker.com/r/wolfdeng/beanstalkd/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/wolfdeng/beanstalkd.svg)](https://hub.docker.com/r/wolfdeng/beanstalkd/)
+[![Image Size](https://img.shields.io/imagelayers/image-size/wolfdeng/beanstalkd/latest.svg)](https://imagelayers.io/?images=wolfdeng/beanstalkd:latest)
+[![Image Layers](https://img.shields.io/imagelayers/layers/wolfdeng/beanstalkd/latest.svg)](https://imagelayers.io/?images=wolfdeng/beanstalkd:latest)
+
 ## Introduce
 
 Beanstalkd is sample, fast work queue. By [kr/beanstalkd](https://github.com/kr/beanstalkd)

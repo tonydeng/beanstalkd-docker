@@ -11,5 +11,9 @@ ENTRYPOINT ["/sbin/tini","--"]
 
 EXPOSE 11300
 
+## Beanstalkd binlog setting
+RUN mkdir -p /mnt/beanstalkd/binlog
+RUN chown -R beanstalk /mnt/beanstalkd
+
 ## Beanstalkd Run
-CMD ["beanstalkd","-p","11300","-u","nobody"]
+CMD ["beanstalkd","-p","11300","-u","beanstalk","-b","/mnt/beanstalkd/binlog"]

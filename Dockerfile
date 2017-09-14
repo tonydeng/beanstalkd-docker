@@ -16,4 +16,4 @@ RUN mkdir -p /mnt/beanstalkd/binlog
 RUN chown -R beanstalk /mnt/beanstalkd
 
 ## Beanstalkd Run
-CMD ["beanstalkd","-p","11300","-u","beanstalk","-b","/mnt/beanstalkd/binlog"]
+CMD ["beanstalkd","-p","11300","-u","beanstalk","-b","/mnt/beanstalkd/binlog","-V"]

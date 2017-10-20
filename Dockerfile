@@ -1,6 +1,6 @@
-FROM alpine:latest
+FROM wolfdeng/alpine:latest
 
-MAINTAINER Tony Deng <wolf.deng@gmail.com>
+MAINTAINER Tony Deng ( wolf.deng@gmail.com )
 
 ## add Tini and Beanstalkd
 RUN apk add --update --no-cache tini beanstalkd && rm -rf /var/cache/apk/*
